@@ -1,0 +1,749 @@
+EESchema Schematic File Version 4
+LIBS:front-panel-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "graphing calculator watch front panel (keypad)"
+Date "2019-02-09"
+Rev "v0.1"
+Comp "madscientist.ninja"
+Comment1 ""
+Comment2 ""
+Comment3 "All Rights Reserved"
+Comment4 "Author: Vincent Banek"
+$EndDescr
+$Comp
+L Device:R R7
+U 1 1 5C5BD0E6
+P 4600 4950
+F 0 "R7" V 4807 4950 50  0000 C CNN
+F 1 "100" V 4716 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4530 4950 50  0001 C CNN
+F 3 "~" H 4600 4950 50  0001 C CNN
+	1    4600 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5C5BECD3
+P 5000 4950
+F 0 "R8" V 5207 4950 50  0000 C CNN
+F 1 "100" V 5116 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4930 4950 50  0001 C CNN
+F 3 "~" H 5000 4950 50  0001 C CNN
+	1    5000 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5C5BECE0
+P 5800 4950
+F 0 "R10" V 6007 4950 50  0000 C CNN
+F 1 "100" V 5916 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5730 4950 50  0001 C CNN
+F 3 "~" H 5800 4950 50  0001 C CNN
+	1    5800 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5C5BECEF
+P 3000 5300
+F 0 "R2" V 3207 5300 50  0000 C CNN
+F 1 "100" V 3116 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2930 5300 50  0001 C CNN
+F 3 "~" H 3000 5300 50  0001 C CNN
+	1    3000 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5C5BED00
+P 5400 4950
+F 0 "R9" V 5607 4950 50  0000 C CNN
+F 1 "100" V 5516 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5330 4950 50  0001 C CNN
+F 3 "~" H 5400 4950 50  0001 C CNN
+	1    5400 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5C5BED21
+P 3000 4950
+F 0 "R1" V 3207 4950 50  0000 C CNN
+F 1 "100" V 3116 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2930 4950 50  0001 C CNN
+F 3 "~" H 3000 4950 50  0001 C CNN
+	1    3000 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5C5BED36
+P 4200 4950
+F 0 "R6" V 4407 4950 50  0000 C CNN
+F 1 "100" V 4316 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4130 4950 50  0001 C CNN
+F 3 "~" H 4200 4950 50  0001 C CNN
+	1    4200 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5C5BED4D
+P 3800 4950
+F 0 "R4" V 4007 4950 50  0000 C CNN
+F 1 "100" V 3916 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3730 4950 50  0001 C CNN
+F 3 "~" H 3800 4950 50  0001 C CNN
+	1    3800 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5C5BED66
+P 3400 4950
+F 0 "R3" V 3607 4950 50  0000 C CNN
+F 1 "100" V 3516 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3330 4950 50  0001 C CNN
+F 3 "~" H 3400 4950 50  0001 C CNN
+	1    3400 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5C5BED81
+P 6200 4950
+F 0 "R11" V 6407 4950 50  0000 C CNN
+F 1 "100" V 6316 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6130 4950 50  0001 C CNN
+F 3 "~" H 6200 4950 50  0001 C CNN
+	1    6200 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5C5BED9E
+P 4000 5300
+F 0 "R5" V 4207 5300 50  0000 C CNN
+F 1 "100" V 4116 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3930 5300 50  0001 C CNN
+F 3 "~" H 4000 5300 50  0001 C CNN
+	1    4000 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAS70-05 D1
+U 1 1 5C5BFD6F
+P 3500 5400
+F 0 "D1" H 3500 5725 50  0000 C CNN
+F 1 "BAS70-05" H 3500 5634 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3250 5700 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/85701/bas40v.pdf" H 3430 5500 50  0001 C CNN
+	1    3500 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 5300 3250 5300
+Wire Wire Line
+	3750 5300 3850 5300
+Wire Wire Line
+	4150 5300 4150 5050
+Wire Wire Line
+	6400 5050 6400 4950
+Wire Wire Line
+	6400 4950 6350 4950
+Wire Wire Line
+	3150 4950 3200 4950
+Wire Wire Line
+	3550 4950 3600 4950
+Wire Wire Line
+	3950 4950 4000 4950
+Wire Wire Line
+	4350 4950 4400 4950
+Wire Wire Line
+	4750 4950 4800 4950
+Wire Wire Line
+	5150 4950 5200 4950
+Wire Wire Line
+	5550 4950 5600 4950
+Wire Wire Line
+	5950 4950 6000 4950
+Connection ~ 3200 4950
+Wire Wire Line
+	3200 4950 3250 4950
+Connection ~ 3600 4950
+Wire Wire Line
+	3600 4950 3650 4950
+Connection ~ 4000 4950
+Wire Wire Line
+	4000 4950 4050 4950
+Connection ~ 4400 4950
+Wire Wire Line
+	4400 4950 4450 4950
+Connection ~ 4800 4950
+Wire Wire Line
+	4800 4950 4850 4950
+Connection ~ 5200 4950
+Wire Wire Line
+	5200 4950 5250 4950
+Connection ~ 5600 4950
+Wire Wire Line
+	5600 4950 5650 4950
+Connection ~ 6000 4950
+Wire Wire Line
+	6000 4950 6050 4950
+$Comp
+L power:GND #PWR0101
+U 1 1 5C5C26A9
+P 3500 5500
+F 0 "#PWR0101" H 3500 5250 50  0001 C CNN
+F 1 "GND" H 3505 5327 50  0000 C CNN
+F 2 "" H 3500 5500 50  0001 C CNN
+F 3 "" H 3500 5500 50  0001 C CNN
+	1    3500 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 6400 4950
+Wire Wire Line
+	2850 5300 2850 5100
+Wire Wire Line
+	4150 5050 6400 5050
+Connection ~ 2850 5100
+Wire Wire Line
+	2850 5100 2850 4950
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5C5F2849
+P 3000 4500
+F 0 "SW3" H 3000 4785 50  0000 C CNN
+F 1 "SW_Push" H 3000 4694 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 3000 4700 50  0001 C CNN
+F 3 "" H 3000 4700 50  0001 C CNN
+	1    3000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5C5F28B2
+P 3700 4500
+F 0 "SW6" H 3700 4785 50  0000 C CNN
+F 1 "SW_Push" H 3700 4694 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 3700 4700 50  0001 C CNN
+F 3 "" H 3700 4700 50  0001 C CNN
+	1    3700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5C5F290A
+P 4400 4500
+F 0 "SW9" H 4400 4785 50  0000 C CNN
+F 1 "SW_Push" H 4400 4694 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 4400 4700 50  0001 C CNN
+F 3 "" H 4400 4700 50  0001 C CNN
+	1    4400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5C5F2967
+P 5100 4500
+F 0 "SW12" H 5100 4785 50  0000 C CNN
+F 1 "SW_Push" H 5100 4694 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 5100 4700 50  0001 C CNN
+F 3 "" H 5100 4700 50  0001 C CNN
+	1    5100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 5C5F29C5
+P 5800 4500
+F 0 "SW15" H 5800 4785 50  0000 C CNN
+F 1 "SW_Push" H 5800 4694 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 5800 4700 50  0001 C CNN
+F 3 "" H 5800 4700 50  0001 C CNN
+	1    5800 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5C5F2B45
+P 3000 4050
+F 0 "SW2" H 3000 4335 50  0000 C CNN
+F 1 "SW_Push" H 3000 4244 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 3000 4250 50  0001 C CNN
+F 3 "" H 3000 4250 50  0001 C CNN
+	1    3000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5C5F2B4C
+P 3700 4050
+F 0 "SW5" H 3700 4335 50  0000 C CNN
+F 1 "SW_Push" H 3700 4244 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 3700 4250 50  0001 C CNN
+F 3 "" H 3700 4250 50  0001 C CNN
+	1    3700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5C5F2B53
+P 4400 4050
+F 0 "SW8" H 4400 4335 50  0000 C CNN
+F 1 "SW_Push" H 4400 4244 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 4400 4250 50  0001 C CNN
+F 3 "" H 4400 4250 50  0001 C CNN
+	1    4400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5C5F2B5A
+P 5100 4050
+F 0 "SW11" H 5100 4335 50  0000 C CNN
+F 1 "SW_Push" H 5100 4244 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 5100 4250 50  0001 C CNN
+F 3 "" H 5100 4250 50  0001 C CNN
+	1    5100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5C5F2B61
+P 5800 4050
+F 0 "SW14" H 5800 4335 50  0000 C CNN
+F 1 "SW_Push" H 5800 4244 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 5800 4250 50  0001 C CNN
+F 3 "" H 5800 4250 50  0001 C CNN
+	1    5800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5C5F3083
+P 3000 3600
+F 0 "SW1" H 3000 3885 50  0000 C CNN
+F 1 "SW_Push" H 3000 3794 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 3000 3800 50  0001 C CNN
+F 3 "" H 3000 3800 50  0001 C CNN
+	1    3000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5C5F308A
+P 3700 3600
+F 0 "SW4" H 3700 3885 50  0000 C CNN
+F 1 "SW_Push" H 3700 3794 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 3700 3800 50  0001 C CNN
+F 3 "" H 3700 3800 50  0001 C CNN
+	1    3700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5C5F3091
+P 4400 3600
+F 0 "SW7" H 4400 3885 50  0000 C CNN
+F 1 "SW_Push" H 4400 3794 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 4400 3800 50  0001 C CNN
+F 3 "" H 4400 3800 50  0001 C CNN
+	1    4400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5C5F3098
+P 5100 3600
+F 0 "SW10" H 5100 3885 50  0000 C CNN
+F 1 "SW_Push" H 5100 3794 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 5100 3800 50  0001 C CNN
+F 3 "" H 5100 3800 50  0001 C CNN
+	1    5100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5C5F309F
+P 5800 3600
+F 0 "SW13" H 5800 3885 50  0000 C CNN
+F 1 "SW_Push" H 5800 3794 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 5800 3800 50  0001 C CNN
+F 3 "" H 5800 3800 50  0001 C CNN
+	1    5800 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3600 2800 3250
+Wire Wire Line
+	2800 3250 3500 3250
+Wire Wire Line
+	3500 3600 3500 3250
+Connection ~ 3500 3250
+Wire Wire Line
+	3500 3250 4200 3250
+Wire Wire Line
+	4200 3600 4200 3250
+Connection ~ 4200 3250
+Wire Wire Line
+	4200 3250 4900 3250
+Wire Wire Line
+	4900 3600 4900 3250
+Connection ~ 4900 3250
+Wire Wire Line
+	5600 3600 5600 3250
+Wire Wire Line
+	2800 4050 2800 3750
+Wire Wire Line
+	2800 3750 3500 3750
+Wire Wire Line
+	2800 4500 2800 4200
+Wire Wire Line
+	2800 4200 3500 4200
+Wire Wire Line
+	3500 3750 3500 4050
+Connection ~ 3500 3750
+Wire Wire Line
+	3500 3750 4200 3750
+Wire Wire Line
+	4200 3750 4200 4050
+Connection ~ 4200 3750
+Wire Wire Line
+	4200 3750 4900 3750
+Wire Wire Line
+	4900 3750 4900 4050
+Wire Wire Line
+	4900 3750 5600 3750
+Wire Wire Line
+	5600 3750 5600 4050
+Connection ~ 5600 3750
+Wire Wire Line
+	3500 4200 3500 4500
+Connection ~ 3500 4200
+Wire Wire Line
+	3500 4200 4200 4200
+Wire Wire Line
+	4200 4200 4200 4500
+Connection ~ 4200 4200
+Wire Wire Line
+	4200 4200 4900 4200
+Wire Wire Line
+	4900 4200 4900 4500
+Wire Wire Line
+	4900 4200 5600 4200
+Wire Wire Line
+	5600 4200 5600 4500
+Connection ~ 5600 4200
+Wire Wire Line
+	3200 3600 3200 4050
+Wire Wire Line
+	3200 4050 3200 4500
+Connection ~ 3200 4050
+Wire Wire Line
+	3200 4500 3200 4950
+Connection ~ 3200 4500
+Wire Wire Line
+	3900 3600 3900 4050
+Wire Wire Line
+	3900 4050 3900 4500
+Connection ~ 3900 4050
+Wire Wire Line
+	3900 4500 3900 4600
+Wire Wire Line
+	3900 4600 3600 4600
+Wire Wire Line
+	3600 4600 3600 4950
+Connection ~ 3900 4500
+Wire Wire Line
+	4600 3600 4600 4050
+Wire Wire Line
+	4600 4500 4600 4050
+Connection ~ 4600 4050
+Wire Wire Line
+	5300 3600 5300 4050
+Wire Wire Line
+	5300 4050 5300 4500
+Connection ~ 5300 4050
+Wire Wire Line
+	6000 3600 6000 4050
+Wire Wire Line
+	6000 4050 6000 4500
+Connection ~ 6000 4050
+Wire Wire Line
+	4000 4550 4600 4550
+Wire Wire Line
+	4600 4550 4600 4500
+Wire Wire Line
+	4000 4550 4000 4950
+Connection ~ 4600 4500
+Wire Wire Line
+	4400 4600 4650 4600
+Wire Wire Line
+	4650 4600 4650 4550
+Wire Wire Line
+	4650 4550 5300 4550
+Wire Wire Line
+	5300 4550 5300 4500
+Wire Wire Line
+	4400 4600 4400 4950
+Connection ~ 5300 4500
+Wire Wire Line
+	4800 4600 5400 4600
+Wire Wire Line
+	5400 4600 5400 4550
+Wire Wire Line
+	5400 4550 6000 4550
+Wire Wire Line
+	6000 4550 6000 4500
+Wire Wire Line
+	4800 4600 4800 4950
+Connection ~ 6000 4500
+Connection ~ 4900 4200
+Connection ~ 4900 3750
+Connection ~ 5600 3250
+Wire Wire Line
+	4900 3250 5600 3250
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5C624206
+P 6500 3600
+F 0 "SW16" H 6500 3885 50  0000 C CNN
+F 1 "SW_Push" H 6500 3794 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 6500 3800 50  0001 C CNN
+F 3 "" H 6500 3800 50  0001 C CNN
+	1    6500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 5C624516
+P 6500 4050
+F 0 "SW17" H 6500 4335 50  0000 C CNN
+F 1 "SW_Push" H 6500 4244 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 6500 4250 50  0001 C CNN
+F 3 "" H 6500 4250 50  0001 C CNN
+	1    6500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 5C624595
+P 6500 4500
+F 0 "SW18" H 6500 4785 50  0000 C CNN
+F 1 "SW_Push" H 6500 4694 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 6500 4700 50  0001 C CNN
+F 3 "" H 6500 4700 50  0001 C CNN
+	1    6500 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3600 6300 3250
+Wire Wire Line
+	5600 3250 6300 3250
+Wire Wire Line
+	6300 4050 6300 3750
+Wire Wire Line
+	5600 3750 6300 3750
+Wire Wire Line
+	6300 4500 6300 4200
+Wire Wire Line
+	5600 4200 6300 4200
+Wire Wire Line
+	6700 3600 6700 4050
+Wire Wire Line
+	6700 4050 6700 4500
+Connection ~ 6700 4050
+Wire Wire Line
+	6700 4500 6700 4600
+Wire Wire Line
+	6700 4600 5450 4600
+Wire Wire Line
+	5450 4600 5450 4650
+Wire Wire Line
+	5450 4650 5200 4650
+Wire Wire Line
+	5200 4650 5200 4950
+Connection ~ 6700 4500
+$Comp
+L Switch:SW_Push SW19
+U 1 1 5C63107D
+P 7200 3600
+F 0 "SW19" H 7200 3885 50  0000 C CNN
+F 1 "SW_Push" H 7200 3794 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 7200 3800 50  0001 C CNN
+F 3 "" H 7200 3800 50  0001 C CNN
+	1    7200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5C6311ED
+P 7200 4050
+F 0 "SW20" H 7200 4335 50  0000 C CNN
+F 1 "SW_Push" H 7200 4244 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 7200 4250 50  0001 C CNN
+F 3 "" H 7200 4250 50  0001 C CNN
+	1    7200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 5C631275
+P 7200 4500
+F 0 "SW21" H 7200 4785 50  0000 C CNN
+F 1 "SW_Push" H 7200 4694 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 7200 4700 50  0001 C CNN
+F 3 "" H 7200 4700 50  0001 C CNN
+	1    7200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW22
+U 1 1 5C6313B3
+P 7900 3600
+F 0 "SW22" H 7900 3885 50  0000 C CNN
+F 1 "SW_Push" H 7900 3794 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 7900 3800 50  0001 C CNN
+F 3 "" H 7900 3800 50  0001 C CNN
+	1    7900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 5C6313BA
+P 7900 4050
+F 0 "SW23" H 7900 4335 50  0000 C CNN
+F 1 "SW_Push" H 7900 4244 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 7900 4250 50  0001 C CNN
+F 3 "" H 7900 4250 50  0001 C CNN
+	1    7900 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW24
+U 1 1 5C6313C1
+P 7900 4500
+F 0 "SW24" H 7900 4785 50  0000 C CNN
+F 1 "SW_Push" H 7900 4694 50  0000 C CNN
+F 2 "Button_Switch_SMD:KMR621NG" H 7900 4700 50  0001 C CNN
+F 3 "" H 7900 4700 50  0001 C CNN
+	1    7900 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 6300 3250
+Wire Wire Line
+	6300 3750 7000 3750
+Connection ~ 6300 3750
+Wire Wire Line
+	6300 4200 7000 4200
+Connection ~ 6300 4200
+Wire Wire Line
+	7000 3600 7000 3250
+Wire Wire Line
+	6300 3250 7000 3250
+Connection ~ 7000 3250
+Wire Wire Line
+	7000 3250 7700 3250
+Wire Wire Line
+	7000 4050 7000 3750
+Connection ~ 7000 3750
+Wire Wire Line
+	7000 3750 7700 3750
+Wire Wire Line
+	7000 4500 7000 4200
+Connection ~ 7000 4200
+Wire Wire Line
+	7000 4200 7700 4200
+Wire Wire Line
+	7700 4500 7700 4200
+Connection ~ 7700 4200
+Wire Wire Line
+	7700 4200 8650 4200
+Wire Wire Line
+	7700 4050 7700 3750
+Connection ~ 7700 3750
+Wire Wire Line
+	7700 3600 7700 3250
+Connection ~ 7700 3250
+Wire Wire Line
+	7400 3600 7400 4050
+Wire Wire Line
+	7400 4050 7400 4500
+Connection ~ 7400 4050
+Wire Wire Line
+	8100 3600 8100 4050
+Wire Wire Line
+	8100 4050 8100 4500
+Connection ~ 8100 4050
+Wire Wire Line
+	7400 4500 7400 4650
+Wire Wire Line
+	7400 4650 5600 4650
+Wire Wire Line
+	5600 4650 5600 4950
+Connection ~ 7400 4500
+Wire Wire Line
+	8100 4500 8100 4700
+Wire Wire Line
+	8100 4700 6000 4700
+Wire Wire Line
+	6000 4700 6000 4950
+Connection ~ 8100 4500
+$Comp
+L Connector:Conn_01x06_Female J1
+U 1 1 5C65E964
+P 9300 5000
+F 0 "J1" H 9327 4976 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 9327 4885 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 9300 5000 50  0001 C CNN
+F 3 "~" H 9300 5000 50  0001 C CNN
+	1    9300 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 3250 9100 4800
+Wire Wire Line
+	7700 3250 9100 3250
+Wire Wire Line
+	8900 3750 8900 4900
+Wire Wire Line
+	8900 4900 9100 4900
+Wire Wire Line
+	7700 3750 8900 3750
+Wire Wire Line
+	8650 5000 9100 5000
+Wire Wire Line
+	8650 4200 8650 5000
+Wire Wire Line
+	8500 4950 8500 5100
+Wire Wire Line
+	8500 5100 9100 5100
+Wire Wire Line
+	6400 4950 8500 4950
+Wire Wire Line
+	8350 5100 8350 5200
+Wire Wire Line
+	8350 5200 9100 5200
+Wire Wire Line
+	2850 5100 8350 5100
+$Comp
+L power:GND #PWR0102
+U 1 1 5C66FB84
+P 9100 5400
+F 0 "#PWR0102" H 9100 5150 50  0001 C CNN
+F 1 "GND" H 9105 5227 50  0000 C CNN
+F 2 "" H 9100 5400 50  0001 C CNN
+F 3 "" H 9100 5400 50  0001 C CNN
+	1    9100 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 5400 9100 5300
+$EndSCHEMATC

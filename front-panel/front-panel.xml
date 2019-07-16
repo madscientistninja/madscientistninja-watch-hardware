@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/masterninja/Documents/kicad/madscientistninja-watch-fp/front-panel/front-panel.sch</source>
+    <date>Sun 10 Feb 2019 10:11:52 AM EST</date>
+    <tool>Eeschema 5.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>graphing calculator watch front panel (keypad)</title>
+        <company>madscientist.ninja</company>
+        <rev>v0.1</rev>
+        <date>2019-02-09</date>
+        <source>front-panel.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value="All Rights Reserved"/>
+        <comment number="4" value="Author: Vincent Banek"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R7">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5BD0E6</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5BECD3</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5BECE0</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5BECEF</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5BED00</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5BED21</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5BED36</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5BED4D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5BED66</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5BED81</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5BED9E</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BAS70-05</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.vishay.com/docs/85701/bas40v.pdf</datasheet>
+      <libsource lib="Diode" part="BAS70-05" description="40V 0.2A Dual Small Signal Schottky Diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5BFD6F</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F2849</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F28B2</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F290A</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F2967</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F29C5</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F2B45</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F2B4C</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F2B53</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F2B5A</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F2B61</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F3083</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F308A</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F3091</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F3098</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5F309F</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C624206</tstamp>
+    </comp>
+    <comp ref="SW17">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C624516</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C624595</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C63107D</tstamp>
+    </comp>
+    <comp ref="SW20">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6311ED</tstamp>
+    </comp>
+    <comp ref="SW21">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C631275</tstamp>
+    </comp>
+    <comp ref="SW22">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6313B3</tstamp>
+    </comp>
+    <comp ref="SW23">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6313BA</tstamp>
+    </comp>
+    <comp ref="SW24">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:KMR621NG</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6313C1</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C65E964</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAS70-05">
+      <description>40V 0.2A Dual Small Signal Schottky Diodes</description>
+      <docs>http://www.vishay.com/docs/85701/bas40v.pdf</docs>
+      <footprints>
+        <fp>SOT*23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAS70-05</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R8-Pad2)">
+      <node ref="SW16" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="SW17" pin="2"/>
+      <node ref="SW18" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="2" name="Net-(R7-Pad2)">
+      <node ref="SW15" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="SW13" pin="2"/>
+      <node ref="SW14" pin="2"/>
+    </net>
+    <net code="3" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="SW19" pin="2"/>
+      <node ref="SW20" pin="2"/>
+      <node ref="SW21" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="4" name="Net-(R4-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="SW7" pin="2"/>
+      <node ref="SW9" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="SW8" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="SW11" pin="2"/>
+      <node ref="SW12" pin="2"/>
+      <node ref="SW10" pin="2"/>
+    </net>
+    <net code="6" name="Net-(J1-Pad5)">
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="D1" pin="3"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="8" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="SW24" pin="2"/>
+      <node ref="SW23" pin="2"/>
+      <node ref="SW22" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad3)">
+      <node ref="SW6" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="SW18" pin="1"/>
+      <node ref="SW21" pin="1"/>
+      <node ref="SW15" pin="1"/>
+      <node ref="SW12" pin="1"/>
+      <node ref="SW9" pin="1"/>
+      <node ref="SW24" pin="1"/>
+    </net>
+    <net code="10" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="SW6" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="SW4" pin="2"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D1-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="13" name="Net-(D1-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad2)">
+      <node ref="SW17" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="SW23" pin="1"/>
+      <node ref="SW8" pin="1"/>
+      <node ref="SW20" pin="1"/>
+      <node ref="SW11" pin="1"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="SW14" pin="1"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="15" name="Net-(R1-Pad2)">
+      <node ref="SW2" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad1)">
+      <node ref="SW10" pin="1"/>
+      <node ref="SW16" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SW7" pin="1"/>
+      <node ref="SW13" pin="1"/>
+      <node ref="SW22" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW19" pin="1"/>
+    </net>
+  </nets>
+</export>
